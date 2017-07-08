@@ -53,13 +53,13 @@
 #If yes, which message should be shown?
 
    KickPlayerMessageBool: true
-   KickPlayerMessage: "[SAC] > %PLAYER% was kicked for hacking. I am always watching you."
+   KickPlayerMessage: "[WD] > %PLAYER% was kicked for hacking. I am always watching you."
 
 #Should SAC show a message when someone gets banned?
 #If yes, which message should be shown?
 
    BanPlayerMessageBool: true
-   BanPlayerMessage: "[SAC] > %PLAYER% was BANNED for hacking. I am always watching you."
+   BanPlayerMessage: "[WD] > %PLAYER% was BANNED for hacking. I am always watching you."
 
 
 #Enable verbose output???
@@ -89,11 +89,11 @@
 
 #Wich Message Sould be shown if Fly is detected?
 
-   Fly-Message: "[SAC] > Fly is not allowed!"
+   Fly-Message: "[WD] > Fly is not allowed!"
 
 #Which Log Message Sould be shown if Fly is detected?
 
-   Fly-LogMessage: "[SAC] > %PLAYER% is hacking Fly!"
+   Fly-LogMessage: "[WD] > %PLAYER% is hacking Fly!"
 
 #----------------KillAura-----------------#
 #BETA, REPORT BUGS!
@@ -191,11 +191,11 @@
 
 #Wich Message Sould be shown if KillAura is detected?
 
-   KillAura-Message: "[SAC] > KillAura is not allowed!"
+   KillAura-Message: "[WD] > KillAura is not allowed!"
 
 #Which Log Message Sould be shown if KillAura is detected?
 
-   KillAura-LogMessage: "[SAC] > %PLAYER% is hacking KillAura!"
+   KillAura-LogMessage: "[WD] > %PLAYER% is hacking KillAura!"
 
 #------------------Regen------------------#
 #Do you want to enable Regen check?
@@ -209,11 +209,11 @@
 
 #Wich Message Sould be shown if Regen is detected?
 
-   Regen-Message: "[SAC] > Regen is not allowed!"
+   Regen-Message: "[WD] > Regen is not allowed!"
 
 #Which Log Message Sould be shown if Regen is detected?
 
-   Regen-LogMessage: "[SAC] > %PLAYER% is hacking Regen!"
+   Regen-LogMessage: "[WD] > %PLAYER% is hacking Regen!"
 
 #-----------------Speed-------------------#
 #Do you want to enable Speed check?
@@ -236,11 +236,11 @@
 
 #Wich Message Sould be shown if Speed is detected?
 
-   Speed-Message: "[SAC] > Speed is not allowed!"
+   Speed-Message: "[WD] > Speed is not allowed!"
 
 #Which Log Message Sould be shown if Speed is detected?
 
-   Speed-LogMessage: "[SAC] > %PLAYER% is hacking Speed!"
+   Speed-LogMessage: "[WD] > %PLAYER% is hacking Speed!"
 
 #-----------------Reach-------------------#
 #Do you want to enable Reach check?
@@ -269,11 +269,11 @@
 
 #Wich Message Sould be shown if Glide is detected?
 
-   Glide-Message: "[SAC] > Glide is not allowed!"
+   Glide-Message: "[WD] > Glide is not allowed!"
 
 #Which Log Message Sould be shown if Glide is detected?
 
-   Glide-LogMessage: "[SAC] > %PLAYER% is hacking Glide!"
+   Glide-LogMessage: "[WD] > %PLAYER% is hacking Glide!"
 
 #----------------ForceOP------------------#
 #######################################################
@@ -313,11 +313,11 @@
 
 #Which Message Should be shown if NoClip is detected?
 
-   NoClip-Message: "[SAC] > NoClip is not allowed!"
+   NoClip-Message: "[WD] > NoClip is not allowed!"
 
 #Which Log Message Sould be shown if NoClip is detected?
 
-   NoClip-LogMessage: "[SAC] > %PLAYER% is hacking NoClip!"
+   NoClip-LogMessage: "[WD] > %PLAYER% is hacking NoClip!"
 
 #--------------ForceGameMode--------------#
 #######################################################
@@ -334,11 +334,11 @@
 
 #Which Message Should be shown if ForceGameMode is detected?
 
-   ForceGameMode-Message: "[SAC] > ForceGameMode is not allowed!"
+   ForceGameMode-Message: "[WD] > ForceGameMode is not allowed!"
 
 #Which Log Message Sould be shown if ForceGameMode is detected?
 
-   ForceGameMode-LogMessage: "[SAC] > %PLAYER% is hacking ForceGameMode!"
+   ForceGameMode-LogMessage: "[WD] > %PLAYER% is hacking ForceGameMode!"
 
 #//////////////////////////////////////////////////////
 #//                                                  //
