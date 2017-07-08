@@ -37,8 +37,8 @@ class WD extends PluginBase
     $Server = $this->getServer();
     
     $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
-    $Logger->info(TextFormat::ESCAPE."$cl" . "[WD] > WatchDog Activated"            );
-    $Logger->info(TextFormat::ESCAPE."$cl" . "[WD] > WatchDog v3.2.5 [Shade]");
+    $Logger->info(TextFormat::ESCAPE."$cl" . "[WD] > WatchDog enabled and Activated"            );
+    $Logger->info(TextFormat::ESCAPE."$cl" . "[WD] > WatchDog v3.2.5 [Shade] by Zeao.");
     $Logger->info(TextFormat::ESCAPE."$cl" . "[WD] > Loading Modules");
     if($Config->get("ForceOP"    )) $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > Enabling AntiForceOP"    );
     if($Config->get("NoClip"     )) $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > Enabling AntiNoClip"     );
@@ -53,7 +53,7 @@ class WD extends PluginBase
 
     if($Config->get("Config-Version") !== "3.5.5")
     {
-      $Logger->warning(TextFormat::ESCAPE."$cl"."[WD] > Your Config is out of date!");
+      $Logger->warning(TextFormat::ESCAPE."$cl"."[WD] > Your Config is out of date! Please delete your old config file and restart the server!");
     }
     if($Config->get("Plugin-Version") !== "3.2.5" and $Config->get("Plugin-Version") !== "3.2.4" and $Config->get("Plugin-Version") !== "3.2.3")
     {
@@ -98,8 +98,8 @@ class WD extends PluginBase
     $Logger = $this->getServer()->getLogger();
     $Server = $this->getServer();
 
-    $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > You are no longer protected from cheats!");
-    $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > WatchDog Deactivated");
+    $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > You are no longer protected from cheats! Are you sure your server is still running?");
+    $Logger->info(TextFormat::ESCAPE."$cl"."[WD] > WatchDog Deactivated succesfully.");
     $Server->enablePlugin($this);
   }
     
@@ -149,7 +149,7 @@ class WD extends PluginBase
 
 //////////////////////////////////////////////////////
 //                                                  //
-//     SAC by DarkWav.                              //
+//     WD by DarkWav.                               //
 //     Distributed under the AntiCheat License.     //
 //     Do not redistribute in modyfied form!        //
 //     All rights reserved.                         //
