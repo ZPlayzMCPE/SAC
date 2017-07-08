@@ -34,7 +34,7 @@ class EventListener implements Listener
   public $Logger;
   public $Server;
 
-  public function __construct(SAC $Main)
+  public function __construct(WD $Main)
   {
     $this->Main   = $Main;
     $this->Logger = $Main->getServer()->getLogger();
@@ -202,7 +202,7 @@ class EventListener implements Listener
 
 //////////////////////////////////////////////////////
 //                                                  //
-//     SAC by DarkWav.                              //
+//     WD by DarkWav.                               //
 //     Distributed under the AntiCheat License.     //
 //     Do not redistribute in modyfied form!        //
 //     All rights reserved.                         //
