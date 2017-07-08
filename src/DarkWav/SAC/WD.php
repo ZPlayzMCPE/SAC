@@ -1,6 +1,6 @@
 <?php
 
-namespace DarkWav\WD;
+namespace DarkWav\SAC;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
