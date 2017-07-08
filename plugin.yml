@@ -1,4 +1,4 @@
-name: WatchDog
+name: WatchDogPE
 main: DarkWav\SAC\WD
 version: 3.2.5
 load: STARTUP
@@ -7,10 +7,10 @@ author: DarkWav, edited by Zeao
 api: [3.0.0-ALPHA1,3.0.0-ALPHA2,3.0.0-ALPHA3,3.0.0-ALPHA4,3.0.0-ALPHA5,3.0.0-ALPHA6,3.0.0-ALPHA7,3.0.0-ALPHA8,3.0.0-ALPHA9,3.0.0-ALPHA10,3.0.0, 3.0.1]
 commands:
       watchdog:
-           description: Shows ShadowAntiCheat version
-           aliases: ["WatchDog","AntiCheat","WD"]
+           description: Shows information about WatchDogPE, and its version
+           aliases: ["WatchDog","AntiCheat","WD","WatchDogPE"]
       wd:
-           description: Shows ShadowAntiCheat version
+           description: Shows WatchDogPE version
            aliases: ["WatchDog","AntiCheat","WD","WatchDogPE"]
 permissions:
     legitop:
