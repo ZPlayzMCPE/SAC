@@ -23,7 +23,7 @@ use pocketmine\event\block\BlockPlaceEvent;
 
 use pocketmine\math\Vector3;
 use pocketmine\event\player\PlayerGameModeChangeEvent;
-use DarkWav\SAC\SAC;
+use DarkWav\SAC\WD;
 use DarkWav\SAC\Observer;
 use pocketmine\event\Cancellable;
 use pocketmine\Player;
